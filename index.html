@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>.stx file viewer : Soundtrail demo with Leaflet.js</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="SoundtrailParser.js"></script>
+</head>
+
+<body>
+    <div id="map"></div>
+    <style>
+        audio::-webkit-media-controls-mute-button {
+            display: none !important;
+        }
+
+        audio::-webkit-media-controls-volume-slider {
+            display: none !important;
+        }
+
+        #map {
+            height: 900px;
+        }
+
+        .leaflet-popup-content-wrapper,
+        .leaflet-popup-tip {
+            width: 440px;
+            height: 640px;
+        }
+    </style>
+    <script>
+        const map = L.map('map').setView([-26.6237, 152.9588], 20);
+        map.setMaxZoom(24)
+        map.setMinZoom(18)
+        const showMap = false // if you want to display the OSM layer
+        if (showMap) {
+            const osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+            map.addLayer(osm);
+        }
+        const soundtrail = "./samples/Nambour.stx"
+        // pick your soundtrail
+        //const soundtrail = "https://ccpublicbucket.s3-ap-southeast-2.amazonaws.com/published_soundtrails/Nambour.soundtrail"
+
+        // this'll take care of the rest
+        fetch(soundtrail)
+            .then(res => res.text())
+            .then(kmltext => {
+                // Create new kml overlay
+                const parser = new DOMParser();
+                const kml = parser.parseFromString(kmltext, 'text/xml');
+                const track = new L.KML(kml);
+
+                map.addLayer(track);
+                // Adjust map to show the kml
+                var bounds = track.getBounds();
+
+                map.fitBounds(bounds); // zoom and centre map to fit the known hotspots
+                
+            });
+    </script>
+</body>
+
+</html>
