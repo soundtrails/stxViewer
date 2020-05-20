@@ -153,7 +153,7 @@ For example :
 
 ## Full Sample 
 
-**[Sample.stx](./Sample.soundtrail)**
+**[Sample.stx](./samples/Sample.stx)**
 
 ## XSD
 
