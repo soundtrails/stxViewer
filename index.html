@@ -38,8 +38,70 @@
             width: 440px;
             height: 640px;
         }
+
+        button.slick-next,
+        button.slick-next:hover {
+            position: absolute;
+            top: calc(50% - 24px);
+            right: 25px;
+            width: 48px;
+            height: 48px;
+            background-image: url("./navigate_next-24px.svg");
+            background-size: contain;
+        }
+
+        button[class*="slick"] {
+            border: none;
+            background-color: transparent;
+            text-indent: -9999px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        button.slick-prev,
+        button.slick-prev:hover {
+            position: absolute;
+            top: calc(50% - 24px);
+            left: 25px;
+            z-index: 1;
+            width: 48px;
+            height: 48px;
+            background-image: url("./navigate_before-24px.svg");
+            background-size: contain;
+        }
     </style>
     <script>
+
+        function setUpTheSliderForThePopup(e) {
+            console.log('setting up the slider', e);
+            $('.slider').slick({
+                dots: false,
+                infinite: true,
+                touchMove: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: false,
+                autoplaySpeed: 2000,
+                arrows: true,
+                responsive: [{
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 400,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        }
+
         const map = L.map('map').setView([-26.6237, 152.9588], 20);
         map.setMaxZoom(24)
         map.setMinZoom(18)
@@ -48,9 +110,26 @@
             const osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
             map.addLayer(osm);
         }
-        const soundtrail = "./samples/Nambour.stx"
-        // pick your soundtrail
-        //const soundtrail = "https://ccpublicbucket.s3-ap-southeast-2.amazonaws.com/published_soundtrails/Nambour.soundtrail"
+
+        const getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = window.location.search.substring(1),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+        
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+        
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                }
+            }
+            return null;
+        };
+
+        var soundtrail = getUrlParameter("stUrl");
+
+        if (soundtrail === null) soundtrail = "./samples/Nambour.stx"
 
         // this'll take care of the rest
         fetch(soundtrail)
@@ -66,8 +145,20 @@
                 var bounds = track.getBounds();
 
                 map.fitBounds(bounds); // zoom and centre map to fit the known hotspots
-                
+
             });
+
+
+        jQuery(document).ready(function ($) {
+
+            map.on('popupopen', function (e) {
+
+                setUpTheSliderForThePopup(e);
+
+            });
+        });
+
+
     </script>
 </body>
 

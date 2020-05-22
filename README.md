@@ -43,9 +43,5 @@ to the URL of your own .stx file.
 
 ### TODO
 
-* Need to remove soundtrails.com hardcoding
-* Allow upload and viewing of an arbitrary `.stx` file    
-   (or, at a minimum, add it as URL param)
 * Add polygon support
-* Multiple image support 
 

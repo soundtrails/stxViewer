@@ -79,15 +79,18 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
 ]]></value>
             </Data>
             <Data name="imageBaseUrl">
-                <value>https://soundtrails.com.au/soundwalks/datafiles/images/</value>
+                <value>https://soundtrails2020.s3-ap-southeast-2.amazonaws.com/datafiles-st-v1/images/</value>
+            </Data>
+            <Data name="audioBaseUrl">
+                <value>https://soundtrails2020.s3-ap-southeast-2.amazonaws.com/datafiles-st-v1/sounds/</value>
             </Data>
             <Data name="images">
-                <value></value>
+                <value>soundwalk_image_5840080085b28, soundwalk_image_58400a1b6417f, soundwalk_image_5840091e5c721, soundwalk_image_584009b410217, soundwalk_image_58509bdde7abb, soundwalk_image_58400a8b1c8f2, soundwalk_image_58509c53800cb</value>
             </Data>
-            <Data name="mapImage">
+            <Data name="mapImageOverlayUrl">
                 <value>soundwalk_map_image_569f5cb9ef4d0</value>
             </Data>
-            <Data name="X_mapImageBounds">
+            <Data name="mapImageBounds">
                 <value>
                     -28.590241,153.218076 -28.598522,153.227508
                 </value>
@@ -115,7 +118,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Begin your exploration of Nimbin here and discover its three waves of settlement - the indigenous Wyabul people, the farmers and the New Settlers.  ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_57477f79992fa</value>
+                    <value>hotspot_images_5850989531435,hotspot_images_58509895301ce,hotspot_images_58509895335dd,hotspot_images_58509d7738fb9</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -146,7 +149,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Tuntable community member Megan James on life\'s significant moments. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_582be1a33efb5</value>
+                    <value>hotspot_images_582be1a35d25c</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -177,7 +180,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Greg Matheson, Jennie Dell and Ruth Miller worked in cooperatives at the old buttery in its heady days as the Bush Factory. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_58400badb82d5</value>
+                    <value>hotspot_images_5840232b565a4</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -208,7 +211,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[The manifesto of Aquarius Festival organisers Graeme Dunstan and Johnny Allen was for a festival of participants, not consumers.  ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_583fa00c50386</value>
+                    <value>hotspot_images_585098d7e31dc</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -239,7 +242,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[After the Aquarius Festival, some chose to stay as \'new settlers\' and make a new life \'on community\'.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_583fdecaefb45</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -270,7 +273,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Bundjalung elder, Uncle Cecil Roberts describes his people\'s traditional lands.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_583e96c18cb67</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -301,7 +304,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Michael Balderstone on the 2014 fire that destroyed the Nimbin Museum and original Rainbow Café.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_56b0840c193df</value>
+                    <value>hotspot_images_583e98cde8a0e,hotspot_images_583e98cdce39e,hotspot_images_58509587719af,hotspot_images_585095496120f</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -332,7 +335,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[How Australia\'s country music hero played the Nimbin Folk Club in 1978.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5800153f97db3</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -363,7 +366,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[In January 1973, Aquarius Festival organisers put their case to have the festival in Nimbin to a packed meeting. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_583fa6170fa8c</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -487,7 +490,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Across from Nimbin Town Hall was the famed Daisy\'s Cafe, which fed many a hippy and local down the years.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5800167dc7ecf</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -518,7 +521,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Psychedelic artist Vernon Treweeke\'s first rainbow mural inspired other artists, and ultimately transformed Nimbin\'s shopfronts.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_583ff47246bec</value>
+                    <value>hotspot_images_583ff4725a498,hotspot_images_583ff4725acf9,hotspot_images_583ff4725b358</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -549,7 +552,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[David Hallett\'s Rainbow\'s End is one poem you might hear at Oasis Cafe\'s monthly poetry nights.  ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_582f813606ef9</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -580,7 +583,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[During the the first Aquarius festival, two saunas were popular meeting places. It was the 1970s.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_583ea4c2ebe99</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -611,7 +614,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Camping at the Aquarius Festival was an entrée for many to an alternative to suburban 9-to-5 capitalist society. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_583fa33f27ab2</value>
+                    <value>hotspot_images_583fa35405582,hotspot_images_583fa506b46ec,hotspot_images_583fa93ed8ec2,hotspot_images_583feeca4d4c2,hotspot_images_58407f6c60a6e,hotspot_images_58407f6caf509</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -642,7 +645,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Aquarius Festival \'songman\' Paul Joseph and his wandering minstrels were a festival highlight for many.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_583fb3802789b</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -673,7 +676,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Trust the radical students to come up with this parody at the Aquarius Festival!]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_58401c2641cfb</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -704,7 +707,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[Pauline Ahern on the trials, tribulations and delights of \'living on community\'. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_58103783e1849</value>
+                    <value>hotspot_images_58103784291cf,hotspot_images_5810378403538,hotspot_images_58103784d9469,hotspot_images_581037855dd24,hotspot_images_581037857d32a,hotspot_images_5810379f2613e</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -735,7 +738,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[The story of Australia\'s first rainforest blockade.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_583f543dafe77</value>
+                    <value>hotspot_images_583f654910081,hotspot_images_583f654921423,hotspot_images_583f6bd044d04,hotspot_images_583f66fc2bbd3</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -766,7 +769,7 @@ Thanks to Lismore Nimbin Tourism and natsky, Peter Derrett, Pauline and Amelia A
                     <value><![CDATA[What\'s a festival without a tightrope walker, African pianist and a wandering troupe of spiritual minstrels from Bengal?]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_583fa0bcb8c4f</value>
+                    <value>hotspot_images_583fa437f1d06,hotspot_images_583fe0aa791d0,hotspot_images_5840acc4e06d9</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>

@@ -267,7 +267,7 @@ L.Util.extend(L.KML, {
 
         if (name) {
             layer.bindPopup('<h2>' + name + '</h2>' + descr, { className: 'kml-popup' });
-        } 
+        }
     },
 
     parseCoords: function (xml) {
@@ -297,10 +297,18 @@ L.Util.extend(L.KML, {
         if (!el.length) {
             return;
         }
-        if (line.attributes[0].value === "mapImage") {
+        if (line.attributes[0].value === "mapImageOverlayUrl") {
+            var imgurl;
+            xml.getElementsByTagName('ExtendedData')[0].childNodes.forEach((node) => {
+                if (node.nodeName != "#text") {
+                    if (node.getAttribute("name") === "imageBaseUrl") {
+                        imgurl = node.textContent.trim();
+                    }
+                }
+            });
             b = get_nextsibling(line).getElementsByTagName('value')[0].textContent.trim().split(" ")
             const bounds = [b[0].split(","), b[1].split(",")]
-            const image = "https://soundtrails.com.au/soundwalks/datafiles/images/" + el[0].textContent
+            const image = imgurl + el[0].textContent
             L.imageOverlay(image, bounds, {
                 opacity: 1
             }).addTo(map);
@@ -311,10 +319,10 @@ L.Util.extend(L.KML, {
     getDataAttributeValue(extendedData, property) {
         try {
             var data = extendedData.getElementsByTagName("Data");
-            var elem = [...data].filter( (e) => e.attributes.getNamedItem('name').value == property );
+            var elem = [...data].filter((e) => e.attributes.getNamedItem('name').value == property);
             var valu = elem[0].children[0].innerHTML;
             return valu;
-        } catch(e) {
+        } catch (e) {
             console.warn(`Parsing for ${property} failed in`, extendedData, e);
             return null;
         }
@@ -328,9 +336,22 @@ L.Util.extend(L.KML, {
         const ed = get_nextsibling(line).getElementsByTagName('value');
 
         //////////////////////////////////////////////////////////////////////////////////////////////
-        //////////////////////////////////////////////////////////////////////////////////////////////
-        //////////////////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////
         const r = parseFloat(ed[0].childNodes[0].nodeValue);
+
+        var imgurl, soundUrl;
+
+        xml.getElementsByTagName('ExtendedData')[0].childNodes.forEach((node) => {
+            if (node.nodeName != "#text") {
+                if (node.getAttribute("name") === "audioBaseUrl") {
+                    soundUrl = node.textContent.trim();
+                }
+                if (node.getAttribute("name") === "imageBaseUrl") {
+                    imgurl = node.textContent.trim();
+                }
+            }
+        });
         var ll = el[0].childNodes[0].nodeValue.split(',');
         options = { radius: r }
         const m = new L.marker(new L.LatLng(ll[0], ll[1]), options);
@@ -343,14 +364,12 @@ L.Util.extend(L.KML, {
         var layer = this.getDataAttributeValue(get_nextsibling(line), 'layer');
 
         // change these as needed --- get this from the Document values, but also allow BOTH file name AND full path URLS -- TODO
-        const imgurl = "https://soundtrails.com.au/soundwalks/datafiles/images/"
-        const soundUrl = "https://soundtrails.com.au/soundwalks/datafiles/sounds/"
         //if (img != undefined) {
         if (layer >= 5) {
             displayImages = ""
             if (img != undefined) {
                 img = img.nodeValue
-                img = ""+img
+                img = "" + img
                 if (img.includes(',')) {
                     displayImages = '<div class="slider" id="slider">'
                     var images = img.split(',')
@@ -361,11 +380,11 @@ L.Util.extend(L.KML, {
                 } else {
                     displayImages = '<img style="width:400px; height:auto" src="' + imgurl + img + '" />'
                 }
-            } 
+            }
             // this is for the soundtrail website, you're gonna need to add you're own urls and stuff here
             m.bindPopup('<div style="width:400px; height:400px;">' +
                 '<h3>' + ed[2].childNodes[0].nodeValue + '</h3>' +
-                displayImages+
+                displayImages +
                 '<br>' +
                 ed[3].childNodes[0].nodeValue +
                 '<br>' +
