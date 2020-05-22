@@ -11,12 +11,15 @@
 </p><p><B>THANKS ALSO TO</B> </p><p>Narrator Jon Coghill and Heritage Library, Sunshine Coast Libraries.</p><p><b>PHOTOGRAPHY ACKNOWLEDGEMENTS</b></p><p> Picture Sunshine Coast, Heritage Library, Sunshine Coast Libraries. </p><p>The Nambour Museum. </p><p>Kerry Chave and Kassie Abriola. </p><p>All photographs used with permission. </p>]]></value>
             </Data>
             <Data name="imageBaseUrl">
-                <value>https://soundtrails.com.au/soundwalks/datafiles/images/</value>
+                <value>https://soundtrails2020.s3-ap-southeast-2.amazonaws.com/datafiles-st-v1/images/</value>
+            </Data>
+            <Data name="audioBaseUrl">
+                <value>https://soundtrails2020.s3-ap-southeast-2.amazonaws.com/datafiles-st-v1/sounds/</value>
             </Data>
             <Data name="images">
-                <value></value>
+                <value>soundwalk_image_59656cabb391f, soundwalk_image_596458482974e, soundwalk_image_59645824696fc, soundwalk_image_59645808f1741, soundwalk_image_596457d396bce, soundwalk_image_596457b1a0841, soundwalk_image_596457907caef, soundwalk_image_5964534db72da, soundwalk_image_5996923039209, soundwalk_image_599690bc24932</value>
             </Data>
-            <Data name="mapImage">
+            <Data name="mapImageOverlayUrl">
                 <value>soundwalk_map_image_5687078ef243d</value>
             </Data>
             <Data name="mapImageBounds">
@@ -47,7 +50,7 @@
                     <value><![CDATA[]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_599a63e243d52</value>
+                    <value>hotspot_images_59768c0954e15</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -109,7 +112,7 @@
                     <value><![CDATA[Florence Comino (nee Venardos) and her son, Cos, chew the fat on their family\'s beloved Vogue Cinema]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_599a65f698dd0</value>
+                    <value>hotspot_images_599a65f6c0d22,hotspot_images_599a65f6e7c68</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -140,7 +143,7 @@
                     <value><![CDATA[Marie Nevin worked downstairs selling materials in Bayards: a legendary corner store of old Nambour. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5954704e3a71b</value>
+                    <value>hotspot_images_5959b1353e2cd,hotspot_images_5959b1375157f</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -171,7 +174,7 @@
                     <value><![CDATA[Memories of the trains that went past and the chaos that sometime ensued.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_59768cde8e57d</value>
+                    <value>hotspot_images_5959a829a004b,hotspot_images_5964336951ee9</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -233,7 +236,7 @@
                     <value><![CDATA[A lesson in deportment, by June Upton]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5959afb6be89c</value>
+                    <value>hotspot_images_5959afb6daaed,hotspot_images_5959afb706de5,hotspot_images_595aea22794fe</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -264,7 +267,7 @@
                     <value><![CDATA[Veronica Richmond (nee Ware) won checker of the year competition in 1967. Closest to us in the photo, she\'s the one with her hand on the toilet paper. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5954669345ec3</value>
+                    <value>hotspot_images_59546693c5268,hotspot_images_59546694064d2,hotspot_images_595aeba5d5dcb</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -295,7 +298,7 @@
                     <value><![CDATA[Ian Mackay reciting his much-loved piece on the Nambour trolleys.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5959aae3d926c</value>
+                    <value>hotspot_images_596eaa6e4e619</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -326,7 +329,7 @@
                     <value><![CDATA[]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_596eafe1a6df7</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -357,7 +360,7 @@
                     <value><![CDATA[Former Carter Road kids, Lyndon Davis and Brent Miller, on hanging out at Petrie Creek on their BMXs. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_596eb41b077e5</value>
+                    <value>hotspot_images_596eb41b14a1c,hotspot_images_596eb41b157f2</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -388,7 +391,7 @@
                     <value><![CDATA[Thursday morning breakfast at the Quota Park shelter with the homeless, the restless, the early to school, and the folk from the Shack. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5995196c6a973</value>
+                    <value>hotspot_images_5995196c9c650,hotspot_images_5995196cd2ea0</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -419,7 +422,7 @@
                     <value><![CDATA[Barbara Want and Kath Parry remember the war years in Nambour.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_59547fb851411</value>
+                    <value>hotspot_images_59547fb852eef,hotspot_images_5959a659b246e</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -450,7 +453,7 @@
                     <value><![CDATA[Rainee Skinner on her days at Nambour High  and Nambour\'s left wing intellectuals]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5959afe3bcf82</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -512,7 +515,7 @@
                     <value><![CDATA[Few people appreciate the calibre of swimmers that came from Nambour and who swam in Petrie Creek]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5959ad420f19f</value>
+                    <value>hotspot_images_596eb7e2f05f6</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -543,7 +546,7 @@
                     <value><![CDATA[A place to reflect on just how much Nambour has changed.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_59757e4a6ea7b</value>
+                    <value>hotspot_images_596ebc13bb190,hotspot_images_596ebc13e042c,hotspot_images_596ebc14d109e,hotspot_images_596ebd0a5f473,hotspot_images_596ebd0a7c234</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -574,7 +577,7 @@
                     <value><![CDATA[Margaret Klaasen as a young girl loved going into the ladies lounge with her mother and grandmother. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5959ab40c537d</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -605,7 +608,7 @@
                     <value><![CDATA[Collins Cafe was THE Place to go in town.]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_595480c04baf6</value>
+                    <value>hotspot_images_595480c073614,hotspot_images_59548120b1188,hotspot_images_59642d5489554</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -667,7 +670,7 @@
                     <value><![CDATA[An extract from the Nambour Variety Show, as read by Aunty Doreen]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_596eb91a98547</value>
+                    <value></value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -698,7 +701,7 @@
                     <value><![CDATA[Nambour is at the end of the the Brisbane line, and the trip south has touched everyone here. ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_59768e9d21bd3</value>
+                    <value>hotspot_images_59768e9deb02d,hotspot_images_59768e9e67765</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
@@ -732,7 +735,7 @@
 ]]></value>
                 </Data>
                 <Data name="images">
-                    <value>hotspot_image_5991393a4d4eb</value>
+                    <value>hotspot_images_5991393adf595,hotspot_images_5991393b7d7c0,hotspot_images_5991393bdbeda,hotspot_images_5991393cb0a9c</value>
                 </Data>
                 <Data name="layer">
                     <value>10</value>
