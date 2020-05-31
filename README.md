@@ -32,13 +32,13 @@ Then open http://localhost:5000
 
 ### To try a different `.stx` with this viewer
 
-To try your own `.stx` file in the viewer, currently you must simply change the line in `index.html` which is currently 
+To try your own `.stx` file in the viewer, add `/?stUrl=[your stx url here]` to the end of the url in your browser.
 
-```
-const soundtrail = "./zip/Nambour.stx"
-```
+Or change index.html with your stx file url.
 
-to the URL of your own .stx file.
+```javascript
+   if (soundtrail === null) soundtrail = "[your stx file or url here]";
+```
 
 
 ### TODO

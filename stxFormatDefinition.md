@@ -153,7 +153,7 @@ For example :
 
 ## Full Sample 
 
-**[Sample.stx](./samples/Sample.stx)**
+**[Sample.stx](./samples//Nambour.stx)**
 
 ## XSD
 
