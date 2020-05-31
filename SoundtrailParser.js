@@ -307,7 +307,9 @@ L.Util.extend(L.KML, {
                 }
             });
             b = get_nextsibling(line).getElementsByTagName('value')[0].textContent.trim().split(" ")
-            const bounds = [b[0].split(","), b[1].split(",")]
+            const nw = b[0].split(",")
+            const se = b[1].split(",")
+            const bounds = [[nw[1], nw[0]], [se[1], se[0]]]
             const image = imgurl + el[0].textContent
             L.imageOverlay(image, bounds, {
                 opacity: 1
@@ -354,7 +356,7 @@ L.Util.extend(L.KML, {
         });
         var ll = el[0].childNodes[0].nodeValue.split(',');
         options = { radius: r }
-        const m = new L.marker(new L.LatLng(ll[0], ll[1]), options);
+        const m = new L.marker(new L.LatLng(ll[1], ll[0]), options);
         // TODO - THIS SHOULD NOT BE HARDCODED TO [4] - INSTEAD LOOK UP BASED ON PROPERTY
         // SEE THE LOGIC FOR GETTING THE "layer" property below - CHANGE _ALL_ HARDCODING TO WORK LIKE THIS
         var img = ed[4].childNodes[0];
