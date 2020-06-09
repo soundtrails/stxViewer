@@ -376,7 +376,7 @@ L.Util.extend(L.KML, {
                     displayImages = '<div class="slider" id="slider">'
                     var images = img.split(',')
                     images.forEach(image => {
-                        displayImages += '<div><img style="width:400px; height:auto" src="' + imgurl + image + '" /></div>';
+                        displayImages += '<div><img style="width:400px !important; height:auto !important;" src="' + imgurl + image + '" /></div>';
                     });
                     displayImages += '</div>'
                 } else {
