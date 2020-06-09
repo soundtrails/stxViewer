@@ -388,7 +388,7 @@ L.Util.extend(L.KML, {
                 '<h3>' + ed[2].childNodes[0].nodeValue + '</h3>' +
                 displayImages +
                 '<br>' +
-                ed[3].childNodes[0].nodeValue +
+                '<h4>'+ed[3].childNodes[0].nodeValue +'<h4>'+
                 '<br>' +
                 '<audio controls controlsList="nodownload" style="width:400px">' +
                 '<source src="' + soundUrl + ed[1].childNodes[0].nodeValue + '" type="audio/mp3">' +
