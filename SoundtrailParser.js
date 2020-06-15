@@ -335,12 +335,23 @@ L.Util.extend(L.KML, {
         if (!el.length) {
             return;
         }
-        const ed = get_nextsibling(line).getElementsByTagName('value');
+        // debugger;
+        let eData;
+        for (var i = 0; i < line.parentElement.childNodes.length; i++) {
+            node = line.parentElement.childNodes[i];
+            if (node.nodeName !== "#text") {
+                if (node.nodeName === "ExtendedData") {
+                    eData = node;
+                    break;
+                }
+            }
+        }
+        const ed = eData.getElementsByTagName('value');
 
         //////////////////////////////////////////////////////////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////
-        const r = parseFloat(ed[0].childNodes[0].nodeValue);
+        const r = parseFloat(this.getDataAttributeValue(eData, 'radius'));
 
         var imgurl, soundUrl;
 
@@ -357,13 +368,12 @@ L.Util.extend(L.KML, {
         var ll = el[0].childNodes[0].nodeValue.split(',');
         options = { radius: r }
         const m = new L.marker(new L.LatLng(ll[1], ll[0]), options);
-        // TODO - THIS SHOULD NOT BE HARDCODED TO [4] - INSTEAD LOOK UP BASED ON PROPERTY
-        // SEE THE LOGIC FOR GETTING THE "layer" property below - CHANGE _ALL_ HARDCODING TO WORK LIKE THIS
-        var img = ed[4].childNodes[0];
+
+        var img = this.getDataAttributeValue(eData, 'images');
 
         // For now, check the "layer" property, and disply if > 5
         // However this should probably be based upon "areaDisplayStyle" if that is being set in the files
-        var layer = this.getDataAttributeValue(get_nextsibling(line), 'layer');
+        var layer = this.getDataAttributeValue(eData, 'layer');
 
         // change these as needed --- get this from the Document values, but also allow BOTH file name AND full path URLS -- TODO
         //if (img != undefined) {
@@ -388,7 +398,7 @@ L.Util.extend(L.KML, {
                 '<h3>' + ed[2].childNodes[0].nodeValue + '</h3>' +
                 displayImages +
                 '<br>' +
-                '<h4>'+ed[3].childNodes[0].nodeValue +'<h4>'+
+                '<h4>' + ed[3].childNodes[0].nodeValue + '<h4>' +
                 '<br>' +
                 '<audio controls controlsList="nodownload" style="width:400px">' +
                 '<source src="' + soundUrl + ed[1].childNodes[0].nodeValue + '" type="audio/mp3">' +
