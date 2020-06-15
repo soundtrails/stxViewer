@@ -380,8 +380,6 @@ L.Util.extend(L.KML, {
         if (layer >= 5) {
             displayImages = ""
             if (img != undefined) {
-                img = img.nodeValue
-                img = "" + img
                 if (img.includes(',')) {
                     displayImages = '<div class="slider" id="slider">'
                     var images = img.split(',')
