@@ -366,7 +366,8 @@ L.Util.extend(L.KML, {
             }
         });
         var ll = el[0].childNodes[0].nodeValue.split(',');
-        options = { radius: r }
+        // this just gives each hotspot icon an "id" that we can use to simulate a click with jquery
+        options = { radius: r, alt: Math.round(((parseFloat(ll[1])*parseFloat(ll[0])*-1))*10000) }
         const m = new L.marker(new L.LatLng(ll[1], ll[0]), options);
 
         var img = this.getDataAttributeValue(eData, 'images');
@@ -376,7 +377,7 @@ L.Util.extend(L.KML, {
         var layer = this.getDataAttributeValue(eData, 'layer');
 
         // change these as needed --- get this from the Document values, but also allow BOTH file name AND full path URLS -- TODO
-        //if (img != undefined) {
+        // if (img != undefined) {
         if (layer >= 5) {
             displayImages = ""
             if (img != undefined) {
