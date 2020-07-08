@@ -385,21 +385,21 @@ L.Util.extend(L.KML, {
                     displayImages = '<div class="slider" id="slider">'
                     var images = img.split(',')
                     images.forEach(image => {
-                        displayImages += '<div><img style="width:450px; height:auto;" src="' + imgurl + image + '" /></div>';
+                        displayImages += '<div><img class="imgSlider" style="width:450px !important; height:auto;" src="' + imgurl + image + '" /></div>';
                     });
                     displayImages += '</div>'
                 } else {
-                    displayImages = '<img style="width:450px !important; height:auto !important;" src="' + imgurl + img + '" />'
+                    displayImages = '<img class="imgSlider" style="width:450px !important; height:auto;" src="' + imgurl + img + '" />'
                 }
             }
             // this is for the soundtrail website, you're gonna need to add you're own urls and stuff here
-            m.bindPopup('<div style="width:450px; height:400px;">' +
+            m.bindPopup('<div class="imgSlider" style="width:450px !important; height:400px;">' +
                 '<h3>' + ed[2].childNodes[0].nodeValue + '</h3>' +
                 displayImages +
                 '<br>' +
                 '<h4>' + ed[3].childNodes[0].nodeValue + '<h4>' +
                 '<br>' +
-                '<audio controls controlsList="nodownload" style="width:400px">' +
+                '<audio controls controlsList="nodownload" style="width:300px">' +
                 '<source src="' + soundUrl + ed[1].childNodes[0].nodeValue + '" type="audio/mp3">' +
                 '</source></audio></div>');
         }
