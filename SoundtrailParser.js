@@ -372,9 +372,9 @@ L.Util.extend(L.KML, {
 
         var img = this.getDataAttributeValue(eData, 'images');
 
-        // For now, check the "layer" property, and disply if > 5
+        // For now, check the "audioLayer" property, and display if > 5
         // However this should probably be based upon "areaDisplayStyle" if that is being set in the files
-        var layer = this.getDataAttributeValue(eData, 'layer');
+        var layer = this.getDataAttributeValue(eData, 'audioLayer');
 
         // change these as needed --- get this from the Document values, but also allow BOTH file name AND full path URLS -- TODO
         // if (img != undefined) {
