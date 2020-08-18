@@ -113,8 +113,8 @@ For example :
 *(BOOL - show the audio player show for this audio)*
 (def: true)
 * **audioLoop**
-*('never', 'on-completed', 'on-re-entry')*
-(def: 'never')
+*(BOOL - audio should start again at the beginning after finishing)*
+(def: false)
 * **audioPlayUntilEnd**
 *(BOOL - should audio play until the end even if leaving triggger zone)*
 (def: fase)
