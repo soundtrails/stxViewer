@@ -1,5 +1,5 @@
 /*!
-	Copyright (c) 2011-2015, Pavel Shramov, Bruno Bergot - MIT licence
+    Copyright (c) 2011-2015, Pavel Shramov, Bruno Bergot - MIT licence
 */
 
 function get_nextsibling(n) {
@@ -353,6 +353,7 @@ L.Util.extend(L.KML, {
         ////////////////////////////////////////////////////////////////////////////////////////////
         const r = parseFloat(this.getDataAttributeValue(eData, 'radius'));
 
+
         var imgurl, soundUrl;
 
         xml.getElementsByTagName('ExtendedData')[0].childNodes.forEach((node) => {
@@ -365,16 +366,28 @@ L.Util.extend(L.KML, {
                 }
             }
         });
+
+        const id = this.getDataAttributeValue(eData, 'hotspotId');
+        var title = this.getDataAttributeValue(eData, 'title');
+        var desc = this.getDataAttributeValue(eData, 'desc');
+        const areaDisplayStyle = this.getDataAttributeValue(eData, 'areaDisplayStyle');
+        const audio = this.getDataAttributeValue(eData, 'audioFileUrl');
+
+        title = title.replace("<![CDATA[", "");
+        title = title.replace("]]>", "");
+        desc = desc.replace("<![CDATA[", "");
+        desc = desc.replace("]]>", "");
+
+
         var ll = el[0].childNodes[0].nodeValue.split(',');
         // this just gives each hotspot icon an "id" that we can use to simulate a click with jquery
-        options = { radius: r, alt: Math.round(((parseFloat(ll[1])*parseFloat(ll[0])*-1))*10000) }
+        options = { radius: r, alt: id }
         const m = new L.marker(new L.LatLng(ll[1], ll[0]), options);
 
-        var img = this.getDataAttributeValue(eData, 'images');
-
+        const img = this.getDataAttributeValue(eData, 'images');
         // For now, check the "audioLayer" property, and display if > 5
         // However this should probably be based upon "areaDisplayStyle" if that is being set in the files
-        var layer = this.getDataAttributeValue(eData, 'audioLayer');
+        const layer = this.getDataAttributeValue(eData, 'audioLayer');
 
         // change these as needed --- get this from the Document values, but also allow BOTH file name AND full path URLS -- TODO
         // if (img != undefined) {
@@ -394,16 +407,16 @@ L.Util.extend(L.KML, {
             }
             // this is for the soundtrail website, you're gonna need to add you're own urls and stuff here
             m.bindPopup('<div class="imgSlider" style="width:450px !important; height:400px;">' +
-                '<h3>' + ed[2].childNodes[0].nodeValue + '</h3>' +
+                '<h3>' + title + '</h3>' +
                 displayImages +
                 '<br>' +
-                '<h4>' + ed[3].childNodes[0].nodeValue + '<h4>' +
+                '<h4>' + desc + '<h4>' +
                 '<br>' +
                 '<audio controls controlsList="nodownload" style="width:300px">' +
-                '<source src="' + soundUrl + ed[1].childNodes[0].nodeValue + '" type="audio/mp3">' +
+                '<source src="' + soundUrl + audio + '" type="audio/mp3">' +
                 '</source></audio></div>');
         }
-        if (ed[6].childNodes[0].nodeValue != "none") {
+        if (areaDisplayStyle != "none") {
             return m;
         }
     },
