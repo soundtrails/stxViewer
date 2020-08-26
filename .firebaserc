@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "site": "stxdemo",
+    "default": "soundtrail-builder"
+  },
+  "targets": {
+    "soundtrail-builder": {
+      "hosting": {
+        "stxdemo": [
+          "stxdemo"
+        ]
+      }
+    }
+  }
+}

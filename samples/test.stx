@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <ExtendedData>
+            <Data name="title">
+                <value><![CDATA[Nambour]]></value>
+            </Data>
+            <Data name="desc">
+                <value><![CDATA[Drawing together history and heritage, local stories and great original music, the Nambour Heritage Soundtrail is a contemporary take on a truly historical town. From the sugar mill, beauty quests and old Vogue cinema, to the infamy of Bayards Corner and Collins Cafe, the Nambour Heritage Soundtrail comes to us through the voice of locals whose lives and memories are buried beneath the streets. With ex PowderFinger’s Jon Coghill as our narrator, sound design by award winning producer, Hamish Sewell, and stunning backing tracks by local band, Biscuit, the Nambour Heritage Soundtrail puts the hipster into the heritage of one of the Sunshine Coast’s oldest towns. </p><p> The Nambour Heritage Soundtrail is proudly supported by the Sunshine Coast Council Cultural Heritage Levy.</p><p>Start the tour at Nambour Library and use the free council Wi-Fi to download the Soundtrails App to your tablet or smart phone. And don’t forget your headphones!</p><p><b>SAFETY WARNING </b>– While using the Soundtrails App on site, please be aware that your attention may be diverted from dangers of traffic on roads you may be required to cross.</p><p><b>CREDITS AND CONTRIBUTORS</b></p>The Nambour Heritage Soundtrail was produced by The Story Project, lead by producer Hamish Sewell, 2017</p><p> Bayards Corner - Marie Nevin. </p><p>BCC Supermarket - Veronica Richmond. </p><p>BMX Boys - Lyndon Davis and Brent Miller. </p><p>Breakfast with the Homeless - folk from The Shack in Nambour. </p><p>Children of War - Kath Parry and Barbara Want. </p><p>Collins Café - Robert Collins, James Cash, Glenn Eglington and Robert Bury. </p><p>Howard Street and the Cane Train Haul - Mike Lean and Marie Nevin. </p><p>Ladies Lounge - Margaret Klaasen. </p><p>Mill Street - Sony Byquar, Clive Plater, extracts from The Nambour Variety Show Podcast and The Adventures of Lorry Loco, The Sugar Cane Locomotive. </p><p>Nambour Surf Life Savers - Peter Rigby. </p><p>School Boys and Walk Shorts - Rainee Skinner and Glenda O’Sullivan. </p><p>Kevin the Shopping Trolley Boy - Ian Mackay. 
+</p><p><b>HIDDEN SOUNDFIELDS</p></b><p>Backing tracks by Biscuit: Leon Tussie and Lee Hardisty.</p><p>C Square: Fires - Marie Niven, Barbara Want, Steve Cook and Kath Parry. </p><p>C Square: Railway Station - Kath Parry, Barbara Want, June Upton and Lyndon Davis.
+</p><p><B>THANKS ALSO TO</B></p><p>Narrator Jon Coghill and Heritage Library, Sunshine Coast Libraries.</p><p><b>PHOTOGRAPHY ACKNOWLEDGEMENTS</b></p><p> Picture Sunshine Coast, Heritage Library, Sunshine Coast Libraries. </p><p>The Nambour Museum. </p><p>Kerry Chave and Kassie Abriola. </p><p>All photographs used with permission. </p>]]></value>
+            </Data>
+            <Data name="imageBaseUrl">
+                <value>https://soundtrails2020.s3-ap-southeast-2.amazonaws.com/datafiles-st-v1/images/</value>
+            </Data>
+            <Data name="audioBaseUrl">
+                <value>https://soundtrails2020.s3-ap-southeast-2.amazonaws.com/datafiles-st-v1/sounds/</value>
+            </Data>
+            <Data name="images">
+                <value>soundwalk_image_59656cabb391f,soundwalk_image_596458482974e,soundwalk_image_59645824696fc,soundwalk_image_59645808f1741,soundwalk_image_596457d396bce,soundwalk_image_596457b1a0841,soundwalk_image_596457907caef,soundwalk_image_5964534db72da,soundwalk_image_5996923039209,soundwalk_image_599690bc24932</value>
+            </Data>
+            <Data name="mapImageOverlayUrl">
+                <value>soundwalk_map_image_5687078ef243d</value>
+            </Data>
+            <Data name="mapImageBounds">
+                <value>152.957048,-26.623856 152.963322,-26.62881</value>
+            </Data>
+            <Data name="copyright">
+                <value><![CDATA[This file and all associated audio and image files are © The Story Project 2020]]></value>
+            </Data>
+        </ExtendedData>
+        <Placemark id="332">
+            <ExtendedData>
+                <Data name="radius">
+                    <value>24.178913761366</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_595068d4cbe55.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Start of Nambour Soundtrail]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_599a63e243d52,hotspot_images_59768c0954e15</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+            <Point>
+                <coordinates>152.95813500881195,-26.62759044227479</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="333">
+            <Point>
+                <coordinates>152.95970141887665,-26.62756166951177</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>113.71889117442</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_59506ad71a1f0.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Burn in Hell - background]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[]]></value>
+                </Data>
+                <Data name="images">
+                    <value/>
+                </Data>
+                <Data name="layer">
+                    <value>3</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>none</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="334">
+            <Point>
+                <coordinates>152.95912206172943,-26.627365055437206</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>24.802885729401</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_59506bd48979a.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[The Old Vogue Theatre]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Florence Comino (nee Venardos) and her son, Cos, chew the fat on their family's beloved Vogue Cinema]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_599a65f698dd0,hotspot_images_599a65f6c0d22,hotspot_images_599a65f6e7c68</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="335">
+            <Point>
+                <coordinates>152.95931115746498,-26.62691667817262</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>23.866927777348</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_595073e00eb76.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Bayards Corner]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Marie Nevin worked downstairs selling materials in Bayards: a legendary corner store of old Nambour. ]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_5954704e3a71b,hotspot_images_5959b1353e2cd,hotspot_images_5959b1375157f</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="336">
+            <Point>
+                <coordinates>152.95983284711838,-26.626991008215125</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>23.398948801322</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_595082f26d231.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Howard St and the Cane Train Haul]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Memories of the trains that went past and the chaos that sometime ensued.]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_59768cde8e57d,hotspot_images_5959a829a004b,hotspot_images_5964336951ee9</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="337">
+            <Point>
+                <coordinates>152.95985162258148,-26.625698617685572</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>81.116355844583</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_59508441c1fb5.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Jazzy got love - background]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[]]></value>
+                </Data>
+                <Data name="images">
+                    <value/>
+                </Data>
+                <Data name="layer">
+                    <value>3</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>none</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="338">
+            <Point>
+                <coordinates>152.95985162258148,-26.626408355295787</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>22.930969825296</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_59508697acda7.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Queens of Nambour]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[A lesson in deportment, by June Upton]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_5959afb6be89c,hotspot_images_5959afb6daaed,hotspot_images_5959afb706de5,hotspot_images_595aea22794fe</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="339">
+            <Point>
+                <coordinates>152.96006485819817,-26.625934797751253</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>22.618983841278</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_595088ff0f170.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[BCC Supermarket]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Veronica Richmond (nee Ware) won checker of the year competition in 1967. Closest to us in the photo, she's the one with her hand on the toilet paper. ]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_5954669345ec3,hotspot_images_59546693c5268,hotspot_images_59546694064d2,hotspot_images_595aeba5d5dcb</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="340">
+            <Point>
+                <coordinates>152.96101838350296,-26.625921610044717</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>40.090198946265</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_59508b71f1991.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Kevin the shopping trolley boy]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Ian Mackay reciting his much-loved piece on the Nambour trolleys.]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_5959aae3d926c,hotspot_images_596eaa6e4e619</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="341">
+            <Point>
+                <coordinates>152.9615843296051,-26.625034433564874</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>17.939194081014</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5950a17111b24.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Petrie Ck Bridge]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_596eafe1a6df7</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="342">
+            <Point>
+                <coordinates>152.96199202537537,-26.625099173703102</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>18.251180065031</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5950a262a7dd6.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[BMX Boys]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Former Carter Road kids, Lyndon Davis and Brent Miller, on hanging out at Petrie Creek on their BMXs. ]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_596eb41b077e5,hotspot_images_596eb41b14a1c,hotspot_images_596eb41b157f2</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="343">
+            <Point>
+                <coordinates>152.96283423900604,-26.62513993599354</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>17.003236128961</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5950a303b11fd.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Breakfast with the homeless]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Thursday morning breakfast at the Quota Park shelter with the homeless, the restless, the early to school, and the folk from the Shack. ]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_5995196c6a973,hotspot_images_5995196c9c650,hotspot_images_5995196cd2ea0</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="344">
+            <Point>
+                <coordinates>152.96238094568253,-26.624974488959744</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>14.819334240837</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5950a43f127e7.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Children of War]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Barbara Want and Kath Parry remember the war years in Nambour.]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_59547fb851411,hotspot_images_59547fb852eef,hotspot_images_5959a659b246e</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="345">
+            <Point>
+                <coordinates>152.9627886414528,-26.624622014045677</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>20.279088961146</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5950a4fc15686.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[School boys and walk shorts]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Rainee Skinner on her days at Nambour High  and Nambour's left wing intellectuals]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_5959afe3bcf82</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="346">
+            <Point>
+                <coordinates>152.96227097511292,-26.62473471022486</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>179.54793380214</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5950abd1be47f.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[War and Mussells - background]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[]]></value>
+                </Data>
+                <Data name="images">
+                    <value/>
+                </Data>
+                <Data name="layer">
+                    <value>3</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>none</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="347">
+            <Point>
+                <coordinates>152.96128123998642,-26.62478506380091</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>16.067278176908</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5950ab64363a1.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Nambour Surf Lifesavers]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Few people appreciate the calibre of swimmers that came from Nambour and who swam in Petrie Creek]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_5959ad420f19f,hotspot_images_596eb7e2f05f6</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="349">
+            <Point>
+                <coordinates>152.95900404453278,-26.625717799841105</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>18.563166049049</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5950b2e62532f.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[COD corner store]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[A place to reflect on just how much Nambour has changed.]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_59757e4a6ea7b,hotspot_images_596ebc13bb190,hotspot_images_596ebc13e042c,hotspot_images_596ebc14d109e,hotspot_images_596ebd0a5f473,hotspot_images_596ebd0a7c234</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="350">
+            <Point>
+                <coordinates>152.95889675617218,-26.626470696902327</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>18.875152033066</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_59519f804d456.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Ladies Lounge]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Margaret Klaasen as a young girl loved going into the ladies lounge with her mother and grandmother. ]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_5959ab40c537d</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="351">
+            <Point>
+                <coordinates>152.9588484764099,-26.62609185123033</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>18.719159041058</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5951a0be79983.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Collins Cafe]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Collins Cafe was THE Place to go in town.]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_595480c04baf6,hotspot_images_595480c073614,hotspot_images_59548120b1188,hotspot_images_59642d5489554</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="354">
+            <Point>
+                <coordinates>152.9581993818283,-26.62621893251345</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>92.503844261226</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5951b3856af65.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Burn in Hell 2 - background]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[]]></value>
+                </Data>
+                <Data name="images">
+                    <value/>
+                </Data>
+                <Data name="layer">
+                    <value>3</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>none</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="360">
+            <Point>
+                <coordinates>152.9603397846222,-26.62507040031285</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>22.930969825296</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_596ea14c72aa0.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Under bagasse]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[An extract from the Nambour Variety Show, as read by Aunty Doreen]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_596eb91a98547</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="365">
+            <Point>
+                <coordinates>152.95811623334885,-26.625578729140603</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>21.839018881234</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_597683f976c8b.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Railway Station]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[Nambour is at the end of the the Brisbane line, and the trip south has touched everyone here. ]]></value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_59768e9d21bd3,hotspot_images_59768e9deb02d,hotspot_images_59768e9e67765</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="366">
+            <Point>
+                <coordinates>152.95825570821762,-26.626835154844592</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>20.279088961146</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5991393add526.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Mill Street, and the end of the Soundtrail]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[The end of the line. 
+<br>
+<a href="#" onclick="window.open('https://www.surveymonkey.com/r/95QM3P3', '_blank')" style="color: #F1A623;"> Please participate in our Survey</a>
+]]>                    </value>
+                </Data>
+                <Data name="images">
+                    <value>hotspot_image_5991393a4d4eb,hotspot_images_5991393adf595,hotspot_images_5991393b7d7c0,hotspot_images_5991393bdbeda,hotspot_images_5991393cb0a9c</value>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="367">
+            <Point>
+                <coordinates>152.9615843296051,-26.624557273637176</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>12.479439360705</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5994e4bf20967.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Cross the Road Here 1! ]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[]]></value>
+                </Data>
+                <Data name="images">
+                    <value/>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+        <Placemark id="368">
+            <Point>
+                <coordinates>152.958505153656,-26.626648130519403</coordinates>
+            </Point>
+            <ExtendedData>
+                <Data name="radius">
+                    <value>11.231495424635</value>
+                </Data>
+                <Data name="audioFileUrl">
+                    <value>sound_file_5994e675db3ca.mp3</value>
+                </Data>
+                <Data name="title">
+                    <value><![CDATA[Cross the Road Here!]]></value>
+                </Data>
+                <Data name="desc">
+                    <value><![CDATA[]]></value>
+                </Data>
+                <Data name="images">
+                    <value/>
+                </Data>
+                <Data name="layer">
+                    <value>10</value>
+                </Data>
+                <Data name="areaDisplayStyle">
+                    <value>area</value>
+                </Data>
+                <Data name="transcript">
+                    <value><![CDATA[]]></value>
+                </Data>
+            </ExtendedData>
+        </Placemark>
+    </Document>
+</kml>

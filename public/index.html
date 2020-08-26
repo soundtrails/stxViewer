@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>.stx file viewer : Soundtrail demo with Leaflet.js</title>
+    <title>Soundtrail Embed</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -13,12 +13,20 @@
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
         crossorigin=""></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="SoundtrailParser.js"></script>
 </head>
 
 <body>
+    <div class="desc">
+        <p>
+            This is the embed code for the soundtrail. If you are unsure of what to do with this code, please contact your local tech wizard.
+        </p>
+    </div>
+    <div class="header">
+        <code class="code" id="code"></code>
+    </div>
     <div id="map"></div>
     <style>
         audio::-webkit-media-controls-mute-button {
@@ -30,13 +38,44 @@
         }
 
         #map {
-            height: 900px;
+            height: 600px;
+            width: 600px;
+            margin: auto;
         }
 
-        .leaflet-popup-content-wrapper,
+        code {
+            font-family: Consolas, "courier new";
+            color: black;
+            padding: 2px;
+            font-size: 105%;
+        }
+
+        .desc {
+            font-family: "Roboto";
+            font-weight: 300;
+            font-size: large;
+            padding: 20px 50px;
+        }
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px 50px;
+            margin: 10px;
+        }
+
+        .leaflet-popup,
         .leaflet-popup-tip {
-            width: 440px;
+            width: 500px;
             height: 640px;
+        }
+
+        .leaflet-popup-content-wrapper {
+            height: 700px;
+        }
+
+        .leaflet-popup {
+            overflow-y: scroll;
+            overflow-x: hidden;
         }
 
         button.slick-next,
@@ -116,10 +155,10 @@
                 sURLVariables = sPageURL.split('&'),
                 sParameterName,
                 i;
-        
+
             for (i = 0; i < sURLVariables.length; i++) {
                 sParameterName = sURLVariables[i].split('=');
-        
+
                 if (sParameterName[0] === sParam) {
                     return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
                 }
@@ -130,6 +169,10 @@
         var soundtrail = getUrlParameter("stUrl");
 
         if (soundtrail === null) soundtrail = "./samples/withIdTest.stx";
+
+        document.getElementById("code").innerText =
+            "<iframe src=\"https://stxdemo.firebaseapp.com/embed/?stUrl=" + soundtrail +
+            "\"\ntitle=\"Soundtrail\"\nheight=\"600px\"\nwidth=\"600px\"></iframe>"
 
         // this'll take care of the rest
         fetch(soundtrail)
