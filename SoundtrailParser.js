@@ -346,8 +346,6 @@ L.Util.extend(L.KML, {
                 }
             }
         }
-        const ed = eData.getElementsByTagName('value');
-
         //////////////////////////////////////////////////////////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////
@@ -368,10 +366,10 @@ L.Util.extend(L.KML, {
         });
 
         const id = this.getDataAttributeValue(eData, 'hotspotId');
-        var title = this.getDataAttributeValue(eData, 'title');
-        var desc = this.getDataAttributeValue(eData, 'desc');
+        var title = this.getDataAttributeValue(eData, 'title') || "";
+        var desc = this.getDataAttributeValue(eData, 'desc') || "";
         const areaDisplayStyle = this.getDataAttributeValue(eData, 'areaDisplayStyle');
-        const audio = this.getDataAttributeValue(eData, 'audioFileUrl');
+        const audio = this.getDataAttributeValue(eData, 'audioFileUrl') || "";
 
         title = title.replace("<![CDATA[", "");
         title = title.replace("]]>", "");
@@ -443,10 +441,89 @@ L.Util.extend(L.KML, {
         if (options.fillColor) {
             options.fill = true;
         }
-        if (polys.length === 1) {
-            return new L.Polygon(polys.concat(inner), options);
+        console.log(polys)
+
+
+        // debugger;
+        let eData;
+        for (var i = 0; i < line.parentElement.childNodes.length; i++) {
+            node = line.parentElement.childNodes[i];
+            if (node.nodeName !== "#text") {
+                if (node.nodeName === "ExtendedData") {
+                    eData = node;
+                    break;
+                }
+            }
         }
-        return new L.MultiPolygon(polys, options);
+
+        var imgurl, soundUrl;
+
+        xml.getElementsByTagName('ExtendedData')[0].childNodes.forEach((node) => {
+            if (node.nodeName != "#text") {
+                if (node.getAttribute("name") === "audioBaseUrl") {
+                    soundUrl = node.textContent.trim();
+                }
+                if (node.getAttribute("name") === "imageBaseUrl") {
+                    imgurl = node.textContent.trim();
+                }
+            }
+        });
+
+        const id = this.getDataAttributeValue(eData, 'hotspotId');
+        var title = this.getDataAttributeValue(eData, 'title') || "";
+        var desc = this.getDataAttributeValue(eData, 'desc') || "";
+        const areaDisplayStyle = this.getDataAttributeValue(eData, 'areaDisplayStyle');
+        const audio = this.getDataAttributeValue(eData, 'audioFileUrl') || "";
+
+        title = title.replace("<![CDATA[", "");
+        title = title.replace("]]>", "");
+        desc = desc.replace("<![CDATA[", "");
+        desc = desc.replace("]]>", "");
+
+        // this just gives each hotspot icon an "id" that we can use to simulate a click with jquery
+        options = { alt: id }
+        let m;
+        if (polys.length === 1) {
+            m = new L.Polygon(polys.concat(inner), options);
+        } else {
+            m = new L.MultiPolygon(polys, options);
+        }
+
+        const img = this.getDataAttributeValue(eData, 'images');
+        // For now, check the "audioLayer" property, and display if > 5
+        // However this should probably be based upon "areaDisplayStyle" if that is being set in the files
+        const layer = this.getDataAttributeValue(eData, 'audioLayer');
+
+        // change these as needed --- get this from the Document values, but also allow BOTH file name AND full path URLS -- TODO
+        // if (img != undefined) {
+        if (layer >= 5) {
+            displayImages = ""
+            if (img != undefined) {
+                if (img.includes(',')) {
+                    displayImages = '<div class="slider" id="slider">'
+                    var images = img.split(',')
+                    images.forEach(image => {
+                        displayImages += '<div><img class="imgSlider" style="width:450px !important; height:auto;" src="' + imgurl + image + '" /></div>';
+                    });
+                    displayImages += '</div>'
+                } else {
+                    displayImages = '<img class="imgSlider" style="width:450px !important; height:auto;" src="' + imgurl + img + '" />'
+                }
+            }
+            // this is for the soundtrail website, you're gonna need to add you're own urls and stuff here
+            m.bindPopup('<div class="imgSlider" style="width:450px !important; height:400px;">' +
+                '<h3>' + title + '</h3>' +
+                displayImages +
+                '<br>' +
+                '<h4>' + desc + '<h4>' +
+                '<br>' +
+                '<audio controls controlsList="nodownload" style="width:300px">' +
+                '<source src="' + soundUrl + audio + '" type="audio/mp3">' +
+                '</source></audio></div>');
+        }
+        if (areaDisplayStyle != "none") {
+            return m;
+        }
     },
 
     getLatLngs: function (xml) {
