@@ -396,15 +396,15 @@ L.Util.extend(L.KML, {
                     displayImages = '<div class="slider" id="slider">'
                     var images = img.split(',')
                     images.forEach(image => {
-                        displayImages += '<div><img class="imgSlider" style="width:450px !important; height:auto;" src="' + imgurl + image + '" /></div>';
+                        displayImages += '<div><img class="imgSlider" style="width:400px !important; height:auto;" src="' + imgurl + image + '" /></div>';
                     });
                     displayImages += '</div>'
                 } else {
-                    displayImages = '<img class="imgSlider" style="width:450px !important; height:auto;" src="' + imgurl + img + '" />'
+                    displayImages = '<img class="imgSlider" style="width:400px !important; height:auto;" src="' + imgurl + img + '" />'
                 }
             }
             // this is for the soundtrail website, you're gonna need to add you're own urls and stuff here
-            m.bindPopup('<div class="imgSlider" style="width:450px !important; height:400px;">' +
+            m.bindPopup('<div class="imgSlider" style="width:400px !important; height:400px;">' +
                 '<h3>' + title + '</h3>' +
                 displayImages +
                 '<br>' +
