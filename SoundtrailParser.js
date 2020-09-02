@@ -404,7 +404,7 @@ L.Util.extend(L.KML, {
                 }
             }
             // this is for the soundtrail website, you're gonna need to add you're own urls and stuff here
-            m.bindPopup('<div class="imgSlider" style="width:400px !important; height:400px;">' +
+            m.bindPopup('<div class="imgSlider" style="width:420px !important; height:600px; overflow-y:scroll;">' +
                 '<h3>' + title + '</h3>' +
                 displayImages +
                 '<br>' +
@@ -511,7 +511,7 @@ L.Util.extend(L.KML, {
                 }
             }
             // this is for the soundtrail website, you're gonna need to add you're own urls and stuff here
-            m.bindPopup('<div class="imgSlider" style="width:400px !important; height:400px;">' +
+            m.bindPopup('<div class="imgSlider" style="width:420px !important; height:600px;">' +
                 '<h3>' + title + '</h3>' +
                 displayImages +
                 '<br>' +
