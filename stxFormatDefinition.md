@@ -109,7 +109,7 @@ For example :
 * **areaDisplayStyle**
 *(if this area is visible on a map, & how displayed ('area', 'none', 'pin', 'alert'))* 
 (def: 'area')
-* **audioPlayerVisibe** 
+* **audioPlayerVisible** 
 *(BOOL - show the audio player show for this audio)*
 (def: true)
 * **audioLoop**
