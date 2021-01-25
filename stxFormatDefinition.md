@@ -121,6 +121,8 @@ For example :
 * **audioContinueOnReEntry**
 *(BOOL - should the audio continue where it left off when re-entering the area)*
 (def: true)
+* **audioOnlyPlayOnce**
+*(BOOL - if audio has finished, it should not start again on re-entry to this area - the Soundtrail must be RESET to adjust this - manual play is not effected by this flag)*
 * **images** 
     *(a comma separated list of image file names or full URLS)*
 
