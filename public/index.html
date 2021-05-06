@@ -144,7 +144,7 @@
         const map = L.map('map').setView([-26.6237, 152.9588], 20);
         map.setMaxZoom(24)
         map.setMinZoom(18)
-        const showMap = false // if you want to display the OSM layer
+        const showMap = true // if you want to display the OSM layer
         if (showMap) {
             const osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
             map.addLayer(osm);
@@ -168,7 +168,7 @@
 
         var soundtrail = getUrlParameter("stUrl");
 
-        if (soundtrail === null) soundtrail = "./samples/withIdTest.stx";
+        if (soundtrail === null) soundtrail = "../samples/withIdTest.stx";
 
         document.getElementById("code").innerText =
             "<iframe src=\"https://stxdemo.firebaseapp.com/embed/?stUrl=" + soundtrail +
@@ -188,6 +188,8 @@
                 var bounds = track.getBounds();
 
                 map.fitBounds(bounds); // zoom and centre map to fit the known hotspots
+
+                map.setZoom(16);
 
             });
 
