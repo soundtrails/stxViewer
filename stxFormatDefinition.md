@@ -77,8 +77,8 @@ The available tags are :
 * **mapImageOverlayUrl**  (An option image to use for overlaying)
 * **mapImageBounds** (A geo pair required if mapImageOverlayUrl is set)
 ###### OR 
-* **mapImageOverlayUrlList**  (An option image to use for overlaying)
-* **mapImageBoundsList** (A geo pair required if mapImageOverlayUrl is set)
+* **mapImageOverlayUrlList**  (A list of images to use for overlaying)
+* **mapImageBoundsList** (A list of geo pairs separated by semicolon, required if mapImageOverlayUrlList is set)
 
 
 
