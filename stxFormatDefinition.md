@@ -68,11 +68,18 @@ The available tags are :
 * **imageBaseUrl**
 * **audioBaseUrl**
 * **images**
-* **mapTilesUrl**  (This is a URL to a `.mbtiles` file to be used for displaying the map) OR
+
+* **mapTilesUrl**  (This is a URL to a `.mbtiles` file to be used for displaying the map) 
+###### OR
 * **mapImageOverlayUrl**  (An option image to use for overlaying)
 * **mapImageBounds** (A geo pair required if mapImageOverlayUrl is set)
+###### OR 
+* **mapImageOverlayUrlList**  (An option image to use for overlaying)
+* **mapImageBoundsList** (A geo pair required if mapImageOverlayUrl is set)
+
 * **author** (warning if not present)
 * **copyright** (warning if not present)
+* **version** (Ensures compatibility though format changes) Current version 1.1
 
 For example : 
 
