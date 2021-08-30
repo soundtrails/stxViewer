@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <kml xmlns="http://www.opengis.net/kml/2.2">
+<kml
+    xmlns="http://www.opengis.net/kml/2.2">
     <Document>
         <ExtendedData>
             <Data name="title">
-                <value>Nambour</value>
+                <value><![CDATA[Nambour]]></value>
             </Data>
             <Data name="desc">
                 <value><![CDATA[Drawing together history and heritage, local stories and great original music, the Nambour Heritage Soundtrail is a contemporary take on a truly historical town. From the sugar mill, beauty quests and old Vogue cinema, to the infamy of Bayards Corner and Collins Cafe, the Nambour Heritage Soundtrail comes to us through the voice of locals whose lives and memories are buried beneath the streets. With ex PowderFinger’s Jon Coghill as our narrator, sound design by award winning producer, Hamish Sewell, and stunning backing tracks by local band, Biscuit, the Nambour Heritage Soundtrail puts the hipster into the heritage of one of the Sunshine Coast’s oldest towns. </p><p> The Nambour Heritage Soundtrail is proudly supported by the Sunshine Coast Council Cultural Heritage Levy.</p><p>Start the tour at Nambour Library and use the free council Wi-Fi to download the Soundtrails App to your tablet or smart phone. And don’t forget your headphones!</p><p><b>SAFETY WARNING </b>– While using the Soundtrails App on site, please be aware that your attention may be diverted from dangers of traffic on roads you may be required to cross.</p><p><b>CREDITS AND CONTRIBUTORS</b></p>The Nambour Heritage Soundtrail was produced by The Story Project, lead by producer Hamish Sewell, 2017</p><p> Bayards Corner - Marie Nevin. </p><p>BCC Supermarket - Veronica Richmond. </p><p>BMX Boys - Lyndon Davis and Brent Miller. </p><p>Breakfast with the Homeless - folk from The Shack in Nambour. </p><p>Children of War - Kath Parry and Barbara Want. </p><p>Collins Café - Robert Collins, James Cash, Glenn Eglington and Robert Bury. </p><p>Howard Street and the Cane Train Haul - Mike Lean and Marie Nevin. </p><p>Ladies Lounge - Margaret Klaasen. </p><p>Mill Street - Sony Byquar, Clive Plater, extracts from The Nambour Variety Show Podcast and The Adventures of Lorry Loco, The Sugar Cane Locomotive. </p><p>Nambour Surf Life Savers - Peter Rigby. </p><p>School Boys and Walk Shorts - Rainee Skinner and Glenda O’Sullivan. </p><p>Kevin the Shopping Trolley Boy - Ian Mackay. 
 </p><p><b>HIDDEN SOUNDFIELDS</p></b><p>Backing tracks by Biscuit: Leon Tussie and Lee Hardisty.</p><p>C Square: Fires - Marie Niven, Barbara Want, Steve Cook and Kath Parry. </p><p>C Square: Railway Station - Kath Parry, Barbara Want, June Upton and Lyndon Davis.
-</p><p><B>THANKS ALSO TO</B> </p><p>Narrator Jon Coghill and Heritage Library, Sunshine Coast Libraries.</p><p><b>PHOTOGRAPHY ACKNOWLEDGEMENTS</b></p><p> Picture Sunshine Coast, Heritage Library, Sunshine Coast Libraries. </p><p>The Nambour Museum. </p><p>Kerry Chave and Kassie Abriola. </p><p>All photographs used with permission. </p>]]></value>
+</p><p><B>THANKS ALSO TO</B></p><p>Narrator Jon Coghill and Heritage Library, Sunshine Coast Libraries.</p><p><b>PHOTOGRAPHY ACKNOWLEDGEMENTS</b></p><p> Picture Sunshine Coast, Heritage Library, Sunshine Coast Libraries. </p><p>The Nambour Museum. </p><p>Kerry Chave and Kassie Abriola. </p><p>All photographs used with permission. </p>]]></value>
             </Data>
             <Data name="imageBaseUrl">
                 <value>https://soundtrails2020.s3-ap-southeast-2.amazonaws.com/datafiles-st-v1/images/</value>
@@ -23,20 +24,17 @@
                 <value>soundwalk_map_image_5687078ef243d</value>
             </Data>
             <Data name="mapImageBounds">
-                <value>
-                    152.957048,-26.623856 152.963322,-26.62881
-                </value>
+                <value>152.95704,-26.62391 152.96329,-26.62881</value>
             </Data>
             <Data name="copyright">
-                <value> This file and all associated audio and image files are © The Story Project 2020 </value>
+                <value><![CDATA[This file and all associated audio and image files are © The Story Project 2020]]></value>
             </Data>
         </ExtendedData>
-        
-        <Placemark id="332">
-            <Point>
-                <coordinates>152.9590871930122400,-26.6281203393652570</coordinates>
-            </Point>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>1</value>
+                </Data>
                 <Data name="radius">
                     <value>24.178913761366</value>
                 </Data>
@@ -52,22 +50,37 @@
                 <Data name="images">
                     <value>hotspot_image_599a63e243d52,hotspot_images_59768c0954e15</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="333">
             <Point>
-                <coordinates>152.9597014188766500,-26.6275616695117700</coordinates>
+                <coordinates>152.959087,-26.62812</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>2</value>
+                </Data>
                 <Data name="radius">
                     <value>113.71889117442</value>
                 </Data>
@@ -83,22 +96,37 @@
                 <Data name="images">
                     <value></value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>3</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>none</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>false</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>true</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="334">
             <Point>
-                <coordinates>152.9591220617294300,-26.6273650554372060</coordinates>
+                <coordinates>152.959701,-26.627562</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>3</value>
+                </Data>
                 <Data name="radius">
                     <value>24.802885729401</value>
                 </Data>
@@ -114,22 +142,37 @@
                 <Data name="images">
                     <value>hotspot_image_599a65f698dd0,hotspot_images_599a65f6c0d22,hotspot_images_599a65f6e7c68</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="335">
             <Point>
-                <coordinates>152.9593111574649800,-26.6269166781726200</coordinates>
+                <coordinates>152.959122,-26.627365</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>4</value>
+                </Data>
                 <Data name="radius">
                     <value>23.866927777348</value>
                 </Data>
@@ -145,22 +188,37 @@
                 <Data name="images">
                     <value>hotspot_image_5954704e3a71b,hotspot_images_5959b1353e2cd,hotspot_images_5959b1375157f</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="336">
             <Point>
-                <coordinates>152.9598328471183800,-26.6269910082151250</coordinates>
+                <coordinates>152.959311,-26.626917</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>5</value>
+                </Data>
                 <Data name="radius">
                     <value>23.398948801322</value>
                 </Data>
@@ -176,22 +234,37 @@
                 <Data name="images">
                     <value>hotspot_image_59768cde8e57d,hotspot_images_5959a829a004b,hotspot_images_5964336951ee9</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="337">
             <Point>
-                <coordinates>152.9598516225814800,-26.6256986176855720</coordinates>
+                <coordinates>152.959833,-26.626991</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>6</value>
+                </Data>
                 <Data name="radius">
                     <value>81.116355844583</value>
                 </Data>
@@ -207,22 +280,37 @@
                 <Data name="images">
                     <value></value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>3</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>none</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>false</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>true</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="338">
             <Point>
-                <coordinates>152.9598516225814800,-26.6264083552957870</coordinates>
+                <coordinates>152.959852,-26.625699</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>7</value>
+                </Data>
                 <Data name="radius">
                     <value>22.930969825296</value>
                 </Data>
@@ -238,22 +326,37 @@
                 <Data name="images">
                     <value>hotspot_image_5959afb6be89c,hotspot_images_5959afb6daaed,hotspot_images_5959afb706de5,hotspot_images_595aea22794fe</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="339">
             <Point>
-                <coordinates>152.9600648581981700,-26.6259347977512530</coordinates>
+                <coordinates>152.959852,-26.626408</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>8</value>
+                </Data>
                 <Data name="radius">
                     <value>22.618983841278</value>
                 </Data>
@@ -269,22 +372,37 @@
                 <Data name="images">
                     <value>hotspot_image_5954669345ec3,hotspot_images_59546693c5268,hotspot_images_59546694064d2,hotspot_images_595aeba5d5dcb</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="340">
             <Point>
-                <coordinates>152.9610183835029600,-26.6259216100447170</coordinates>
+                <coordinates>152.960065,-26.625935</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>9</value>
+                </Data>
                 <Data name="radius">
                     <value>40.090198946265</value>
                 </Data>
@@ -300,22 +418,37 @@
                 <Data name="images">
                     <value>hotspot_image_5959aae3d926c,hotspot_images_596eaa6e4e619</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="341">
             <Point>
-                <coordinates>152.9615843296051000,-26.6250344335648740</coordinates>
+                <coordinates>152.961018,-26.625922</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>10</value>
+                </Data>
                 <Data name="radius">
                     <value>17.939194081014</value>
                 </Data>
@@ -331,22 +464,37 @@
                 <Data name="images">
                     <value>hotspot_image_596eafe1a6df7</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="342">
             <Point>
-                <coordinates>152.9619920253753700,-26.6250991737031020</coordinates>
+                <coordinates>152.961584,-26.625034</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>11</value>
+                </Data>
                 <Data name="radius">
                     <value>18.251180065031</value>
                 </Data>
@@ -362,22 +510,37 @@
                 <Data name="images">
                     <value>hotspot_image_596eb41b077e5,hotspot_images_596eb41b14a1c,hotspot_images_596eb41b157f2</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="343">
             <Point>
-                <coordinates>152.9628342390060400,-26.6251399359935400</coordinates>
+                <coordinates>152.961992,-26.625099</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>12</value>
+                </Data>
                 <Data name="radius">
                     <value>17.003236128961</value>
                 </Data>
@@ -393,22 +556,37 @@
                 <Data name="images">
                     <value>hotspot_image_5995196c6a973,hotspot_images_5995196c9c650,hotspot_images_5995196cd2ea0</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="344">
             <Point>
-                <coordinates>152.9623809456825300,-26.6249744889597440</coordinates>
+                <coordinates>152.962834,-26.62514</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>13</value>
+                </Data>
                 <Data name="radius">
                     <value>14.819334240837</value>
                 </Data>
@@ -424,22 +602,37 @@
                 <Data name="images">
                     <value>hotspot_image_59547fb851411,hotspot_images_59547fb852eef,hotspot_images_5959a659b246e</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="345">
             <Point>
-                <coordinates>152.9627886414528000,-26.6246220140456770</coordinates>
+                <coordinates>152.962381,-26.624974</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>14</value>
+                </Data>
                 <Data name="radius">
                     <value>20.279088961146</value>
                 </Data>
@@ -455,22 +648,37 @@
                 <Data name="images">
                     <value>hotspot_image_5959afe3bcf82</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="346">
             <Point>
-                <coordinates>152.9622709751129200,-26.6247347102248600</coordinates>
+                <coordinates>152.962789,-26.624622</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>15</value>
+                </Data>
                 <Data name="radius">
                     <value>179.54793380214</value>
                 </Data>
@@ -486,22 +694,37 @@
                 <Data name="images">
                     <value></value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>3</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>none</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>false</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>true</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="347">
             <Point>
-                <coordinates>152.9612812399864200,-26.6247850638009100</coordinates>
+                <coordinates>152.962271,-26.624735</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>16</value>
+                </Data>
                 <Data name="radius">
                     <value>16.067278176908</value>
                 </Data>
@@ -517,22 +740,37 @@
                 <Data name="images">
                     <value>hotspot_image_5959ad420f19f,hotspot_images_596eb7e2f05f6</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="349">
             <Point>
-                <coordinates>152.9590040445327800,-26.6257177998411050</coordinates>
+                <coordinates>152.961281,-26.624785</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>17</value>
+                </Data>
                 <Data name="radius">
                     <value>18.563166049049</value>
                 </Data>
@@ -548,22 +786,37 @@
                 <Data name="images">
                     <value>hotspot_image_59757e4a6ea7b,hotspot_images_596ebc13bb190,hotspot_images_596ebc13e042c,hotspot_images_596ebc14d109e,hotspot_images_596ebd0a5f473,hotspot_images_596ebd0a7c234</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="350">
             <Point>
-                <coordinates>152.9588967561721800,-26.6264706969023270</coordinates>
+                <coordinates>152.959004,-26.625718</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>18</value>
+                </Data>
                 <Data name="radius">
                     <value>18.875152033066</value>
                 </Data>
@@ -579,22 +832,37 @@
                 <Data name="images">
                     <value>hotspot_image_5959ab40c537d</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="351">
             <Point>
-                <coordinates>152.9588484764099000,-26.6260918512303300</coordinates>
+                <coordinates>152.958897,-26.626471</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>19</value>
+                </Data>
                 <Data name="radius">
                     <value>18.719159041058</value>
                 </Data>
@@ -610,22 +878,37 @@
                 <Data name="images">
                     <value>hotspot_image_595480c04baf6,hotspot_images_595480c073614,hotspot_images_59548120b1188,hotspot_images_59642d5489554</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="354">
             <Point>
-                <coordinates>152.9581993818283000,-26.6262189325134500</coordinates>
+                <coordinates>152.958848,-26.626092</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>20</value>
+                </Data>
                 <Data name="radius">
                     <value>92.503844261226</value>
                 </Data>
@@ -641,22 +924,37 @@
                 <Data name="images">
                     <value></value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>3</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>none</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>false</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>true</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="360">
             <Point>
-                <coordinates>152.9603397846222000,-26.6250704003128500</coordinates>
+                <coordinates>152.958199,-26.626219</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>21</value>
+                </Data>
                 <Data name="radius">
                     <value>22.930969825296</value>
                 </Data>
@@ -672,22 +970,37 @@
                 <Data name="images">
                     <value>hotspot_image_596eb91a98547</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="365">
             <Point>
-                <coordinates>152.9581162333488500,-26.6255787291406030</coordinates>
+                <coordinates>152.96034,-26.62507</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>22</value>
+                </Data>
                 <Data name="radius">
                     <value>21.839018881234</value>
                 </Data>
@@ -703,22 +1016,37 @@
                 <Data name="images">
                     <value>hotspot_image_59768e9d21bd3,hotspot_images_59768e9deb02d,hotspot_images_59768e9e67765</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="366">
             <Point>
-                <coordinates>152.9582557082176200,-26.6268351548445920</coordinates>
+                <coordinates>152.958116,-26.625579</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>23</value>
+                </Data>
                 <Data name="radius">
                     <value>20.279088961146</value>
                 </Data>
@@ -730,29 +1058,43 @@
                 </Data>
                 <Data name="desc">
                     <value><![CDATA[The end of the line. 
-<br>
- <a href="#" onclick="window.open('https://www.surveymonkey.com/r/95QM3P3', '_blank')" style="color: #F1A623;"> Please participate in our Survey</a>
+<br><a href="https://www.surveymonkey.com/r/95QM3P3" style="color: #F1A623;"> Please participate in our Survey</a>
 ]]></value>
                 </Data>
                 <Data name="images">
                     <value>hotspot_image_5991393a4d4eb,hotspot_images_5991393adf595,hotspot_images_5991393b7d7c0,hotspot_images_5991393bdbeda,hotspot_images_5991393cb0a9c</value>
                 </Data>
-                <Data name="layer">
+                <Data name="audioLayer">
                     <value>10</value>
                 </Data>
                 <Data name="areaDisplayStyle">
                     <value>area</value>
                 </Data>
+                <Data name="audioPlayerVisible">
+                    <value>true</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>false</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
+                </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="367">
             <Point>
-                <coordinates>152.9615843296051000,-26.6245572736371760</coordinates>
+                <coordinates>152.958256,-26.626835</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>24</value>
+                </Data>
                 <Data name="radius">
                     <value>12.479439360705</value>
                 </Data>
@@ -768,22 +1110,37 @@
                 <Data name="images">
                     <value></value>
                 </Data>
-                <Data name="layer">
-                    <value>10</value>
+                <Data name="audioLayer">
+                    <value>5</value>
                 </Data>
                 <Data name="areaDisplayStyle">
-                    <value>area</value>
+                    <value>none</value>
+                </Data>
+                <Data name="audioPlayerVisible">
+                    <value>false</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>true</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
                 </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
-        </Placemark>
-        <Placemark id="368">
             <Point>
-                <coordinates>152.9585051536560000,-26.6266481305194030</coordinates>
+                <coordinates>152.961584,-26.624557</coordinates>
             </Point>
+        </Placemark>
+        <Placemark>
             <ExtendedData>
+                <Data name="hotspotId">
+                    <value>25</value>
+                </Data>
                 <Data name="radius">
                     <value>11.231495424635</value>
                 </Data>
@@ -799,16 +1156,31 @@
                 <Data name="images">
                     <value></value>
                 </Data>
-                <Data name="layer">
-                    <value>10</value>
+                <Data name="audioLayer">
+                    <value>5</value>
                 </Data>
                 <Data name="areaDisplayStyle">
-                    <value>area</value>
+                    <value>none</value>
+                </Data>
+                <Data name="audioPlayerVisible">
+                    <value>false</value>
+                </Data>
+                <Data name="audioLoop">
+                    <value>false</value>
+                </Data>
+                <Data name="audioPlayUntilEnd">
+                    <value>true</value>
+                </Data>
+                <Data name="audioContinueOnReEntry">
+                    <value>true</value>
                 </Data>
                 <Data name="transcript">
                     <value><![CDATA[]]></value>
                 </Data>
             </ExtendedData>
+            <Point>
+                <coordinates>152.958505,-26.626648</coordinates>
+            </Point>
         </Placemark>
-        </Document>
-    </kml>
+    </Document>
+</kml>
