@@ -405,14 +405,19 @@ L.Util.extend(L.KML, {
             }
             // this is for the soundtrail website, you're gonna need to add you're own urls and stuff here
             m.bindPopup('<div class="imgSlider" style="width:780px; height:600px; overflow-y:scroll;">' +
-                '<h3>' + title + '</h3>' +
+                // '<h3>' + title + '</h3>' +
                 displayImages +
-                '<br>' +
-                '<h4>' + desc + '<h4>' +
-                '<br>' +
+                '<div style="height: 5px"></div>'+
+                '<div style="display: flex; justify-content: center; width:450px;">'+
                 '<audio controls controlsList="nodownload" style="width:300px">' +
                 '<source src="' + soundUrl + audio + '" type="audio/mp3">' +
-                '</source></audio></div>');
+                '</source></audio>'+
+                '</div>'+
+                '<br>' +
+                '<div style="display: flex; justify-content: center; width:550px;">'+
+                '<h4 style="width:450px;font-family:roboto;font-size:14px;font-weight:500;">' + desc + '<h4>' +
+                '</div>'+
+                '</div>');
         }
         if (areaDisplayStyle != "none") {
             return m;
@@ -496,34 +501,39 @@ L.Util.extend(L.KML, {
 
         // change these as needed --- get this from the Document values, but also allow BOTH file name AND full path URLS -- TODO
         // if (img != undefined) {
-        if (layer >= 5) {
-            displayImages = ""
-            if (img != undefined) {
-                if (img.includes(',')) {
-                    displayImages = '<div class="slider" id="slider">'
-                    var images = img.split(',')
-                    images.forEach(image => {
-                        displayImages += '<div><img class="imgSlider" style="width:400px !important; height:auto;" src="' + imgurl + image + '" /></div>';
-                    });
-                    displayImages += '</div>'
-                } else {
-                    displayImages = '<img class="imgSlider" style="width:400px !important; height:auto;" src="' + imgurl + img + '" />'
+            if (layer >= 5) {
+                displayImages = ""
+                if (img != undefined) {
+                    if (img.includes(',')) {
+                        displayImages = '<div class="slider" id="slider">'
+                        var images = img.split(',')
+                        images.forEach(image => {
+                            displayImages += '<div><img class="imgSlider" style="width:450px !important; height:auto;" src="' + imgurl + image + '" /></div>';
+                        });
+                        displayImages += '</div>'
+                    } else {
+                        displayImages = '<img class="imgSlider" style="width:450px !important; height:auto; margin-bottom:10px;" src="' + imgurl + img + '" />'
+                    }
                 }
-            }
-            // this is for the soundtrail website, you're gonna need to add you're own urls and stuff here
-            m.bindPopup('<div class="imgSlider" style="width:420px !important; height:600px;">' +
-                '<h3>' + title + '</h3>' +
+                // this is for the soundtrail website, you're gonna need to add you're own urls and stuff here
+                m.bindPopup('<div class="imgSlider" style="width:780px; height:600px; overflow-y:scroll;">' +
+                // '<h3>' + title + '</h3>' +
                 displayImages +
-                '<br>' +
-                '<h4>' + desc + '<h4>' +
-                '<br>' +
+                '<div style="height: 5px"></div>'+
+                '<div style="display: flex; justify-content: center; width:450px;">'+
                 '<audio controls controlsList="nodownload" style="width:300px">' +
                 '<source src="' + soundUrl + audio + '" type="audio/mp3">' +
-                '</source></audio></div>');
-        }
-        if (areaDisplayStyle != "none") {
-            return m;
-        }
+                '</source></audio>'+
+                '</div>'+
+                '<br>' +
+                '<div style="display: flex; justify-content: center; width:550px;">'+
+                '<h4 style="width:450px;font-family:roboto;font-size:14px;font-weight:500;">' + desc + '<h4>' +
+                '</div>'+
+                '</div>');
+            }
+            if (areaDisplayStyle != "none") {
+                return m;
+            }
     },
 
     getLatLngs: function (xml) {
